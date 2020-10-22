@@ -6,10 +6,9 @@ namespace gitTest1
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("Hello world!");
             for (int i = 1; i <= 10; i++)
             {
-                Console.WriteLine("{0}^2 = {1}, {0}^3 = {2}", i, i*i, i*i*i);
+                Console.WriteLine("sqrt{0} = {1}", i,Math.Sqrt(i));
                 Console.ReadKey();
             }
         }
